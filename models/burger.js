@@ -1,6 +1,5 @@
 const ormFile = require("../config/orm.js");
 
-
 const burger = {
   all: function(cb) {
     ormFile.all("burger_name", function(res) {

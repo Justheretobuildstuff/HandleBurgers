@@ -16,6 +16,8 @@ router.get("/", function(req, res) {
   });
 });
 
+/*
+
 router.post("/api/burgers", function(req, res) {
   burgerFile.create([
     "name", "sleepy"
@@ -56,6 +58,8 @@ router.delete("/api/burgers/:id", function(req, res) {
     }
   });
 });
+
+*/
 
 // Export routes for server.js to use.
 module.exports = router;
